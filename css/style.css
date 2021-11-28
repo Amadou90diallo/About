@@ -1,0 +1,123 @@
+
+/* Debut Value_proposition */
+
+.containeur_value_proposition{
+	display: grid;
+	grid-template-columns: 45.5% 45.5%;
+	grid-template-rows: 33.33% 33.33%;
+	grid-gap: 10px;
+	margin: 50px 0 0 113px;
+}
+
+.grid{
+	padding: 30px 50px 30px 50px;
+	background-color: #F8F8F8;
+}
+
+#titre_containeur_value_proposition{
+	margin: 50px 0 0 113px;
+}
+
+/* Fin Value_proposition */
+
+
+/* Debut statistique */
+.conteneur_statistique{
+	display: grid;
+	grid-template-columns:  30.33% 30.33% 30.33%;
+	grid-template-rows: 33.33% 33.33% 33.33%;
+	grid-gap: 10px;
+	background-color: #FF0000;
+	margin: 50px 0 0 0;
+	color: white;
+	padding-bottom: 400px ;
+}
+
+.titre_statistique{
+	margin-left: 50px;
+	margin-top: 80px;
+}
+
+.description_statistique{
+	margin-top: -60px;
+}
+
+.nombre_statisque{
+	font-size: 50px;
+}
+
+.photo_dans_statistique{
+	display: flex;
+	flex-wrap: wrap;
+	height: 500px;
+	background-image: url("../photos/photo_1.png");
+	background-repeat: no-repeat;
+	margin: -150px 113px 0 113px;
+}
+
+/* Fin statistique */
+
+/* Debut employe benefits */
+.employe_benefits{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 90px;
+
+}
+
+.groupe_cercle{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 80px;
+	justify-content: space-evenly;
+}
+
+.cercles{
+	width: 175px;
+	height: 175px;
+	border-radius: 150px;
+	background: red;
+	margin: 100px 0 0 10px;
+	
+}
+
+
+.groupe_cercle{
+	height: 460px;
+}
+
+.first_name{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: -180px 0 0 10px;
+}
+
+
+.office{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 300px;
+}
+
+.corps_office{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 150px;
+}
+
+.photo_dans_office{
+	display: flex;
+	flex-wrap: wrap;
+	height: 502px;
+	background-image: url("../photos/photo_2.png");
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	margin: 50px 113px 0 113px;
+}
+
+/* Fin employe benefits */
